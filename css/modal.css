@@ -1,0 +1,82 @@
+.modal .modal-dialog .modal-content{
+    padding: 32px;
+}
+.modal .modal-dialog .modal-content .modal-header .modal-title{
+font-size: 26px;
+text-align: left;
+letter-spacing: 0.4px !important;
+color: #2D3142 !important;
+}
+.modal .modal-dialog .modal-content .modal-header,
+.modal .modal-dialog .modal-content .modal-footer{
+    border: none;
+}
+.modal .modal-dialog .modal-content .modal-body{
+    border: none;
+}
+.modal .modal-dialog .modal-content .modal-body form{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+.modal .modal-dialog .modal-content .modal-body form .input-name{
+display: flex;
+gap: 20px;
+}
+.modal .modal-dialog .modal-content .modal-body form input[type="text"]{
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid lightgrey;
+}
+.modal .modal-dialog .modal-content .modal-body form .input-name input{
+    width: 178px;
+    height: 27px;
+}
+.modal .modal-dialog .modal-content .modal-body form .input-checkbox{
+    display: flex;
+    gap: 10px;
+    
+}
+.modal .modal-dialog .modal-content .modal-body form .input-checkbox p{
+    margin-top: -5px;
+    width: 357px;
+    height: 39px;
+}
+.modal .modal-dialog .modal-content .modal-body form .checkbox{
+    position: relative;
+    width: 14px;
+    height: 14px;
+    border: 2px solid #FF3366 ;
+    border-radius: 3px;
+}
+.modal .modal-dialog .modal-content .modal-body form input[type="submit"]{
+    width: 386px;
+height: 52px;
+background: #FF3366 0% 0% no-repeat padding-box;
+color: #fff;
+}
+.modal .modal-dialog .modal-content .modal-body form .input-checkbox input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;
+    width: 14px;
+    height: 14px;
+    border: 2px solid #FF3366 ;
+
+}
+.modal .modal-dialog .modal-content .modal-body form .input-checkbox input[type="checkbox"]:checked{
+    background: #FF3366;
+    color: #fff;
+}
+.modal .modal-dialog .modal-content .modal-body form .input-checkbox input[type="checkbox"]:after{   
+   content: url("../images/check.png");
+   display: flex;
+   color: #fff !important;
+ justify-content: center;
+ align-items: center;
+margin-top: -8px;
+display: none;
+}
+.modal .modal-dialog .modal-content .modal-body form .input-checkbox input[type="checkbox"]:checked:after{
+    display: flex;
+    color: white;
+}

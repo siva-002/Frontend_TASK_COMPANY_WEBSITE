@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home-container{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+.home-container div img{
+    margin-top: 100px;
+    width: 487px;
+    height: 737px;
+}
+.home-container div .btn{
+   background: #FF3147 0% 0% no-repeat padding-box;
+   color: #FFFFFF;
+   width: 160px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-container div .sub-title{
+    letter-spacing: 0px;
+    color: #FF3147 ;
+    text-transform: uppercase;
+    font: normal normal 600 30px  Cormorant SC;
+}
+.home-container div .title
+{
+    font: normal normal bold 60px Cormorant SC;
+}
+.home-container div .description{
+    font: normal normal normal 16px Poppins;
+    margin: 20px 0 20px 0;
+    max-width: 90%;
+}

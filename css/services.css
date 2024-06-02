@@ -1,0 +1,113 @@
+.services-container{
+    padding-top: 100px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    padding-bottom: 100px;
+}
+.services-container .slider{
+    position: relative;
+}
+.services-container .image-con{
+    margin-top: 60px;
+}
+.services-container .image-con .item {
+    width: 370px;
+    height: 526px; 
+    position: relative;
+}
+.services-container .image-con .item img{
+  /* margin: 30px !important; */
+    width: 100%;
+}
+.services-container .image-con .item .img-content {
+    display: none; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .services-container .image-con .item .img-content:hover{
+        background: #FF3147 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 0.86;
+  }
+  .services-container .image-con .item:hover .img-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    opacity: 0.86;
+  }
+  .services-container .image-con .item:hover .img-content img{
+    width: 57px;
+    height: 57px;
+  }
+  .services-container .image-con .item:hover .img-content h6{
+    margin-top: 37px;
+    text-align: center;
+    font: normal normal 600 24px/26px Cormorant SC;
+  }
+  .services-container .image-con .item:hover .img-content p{
+    text-align: center;
+    margin-top: 21px;
+    font: normal normal normal 16px/30px Poppins;
+  }
+  .services-container .image-con .item:hover .img-content a{
+    margin-top: 54px;
+    color: #FF3147;
+    width: 185px;
+    height: 50px;
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  .services-container .image-con .item:hover .img-content a img{
+    width: 37px;
+    height: 10px;
+  }
+.services-container div .title{
+    max-width: 442px;
+    max-height: 110px;
+    font: normal normal bold 45px Cormorant SC;
+}
+.services-container div .sub-title{
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+}
+.services-container div .description{
+    max-width: 584px;
+    min-height: 83px;
+    font: normal normal normal 16px/30px Poppins;
+}
+
+.dot-container {
+    position: absolute;
+    top: 110%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 200px;
+    width: 200px;
+  }
+
+  .dot{
+    width: 8px;
+    height: 8px;
+    background: transparent url('../svg/2.svg') 0% 0% no-repeat padding-box;
+   cursor: pointer;
+   position: sticky;
+
+  }
+  .services-container .dot-container .active{
+    margin-top: -10px;
+    width: 30px;
+    height: 30px;
+    background: transparent url('../svg/1.svg') 0% 0% no-repeat padding-box;
+}
