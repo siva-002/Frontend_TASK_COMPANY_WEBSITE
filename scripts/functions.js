@@ -50,7 +50,7 @@ $(document).ready(function(){
         "Accept": "application/json"
         }
     }).done(function() {
-        alert('Thanks for Contacting,We will get back to you sonn')
+        alert('Thanks for Contacting,We will get back to you soon')
     }).fail(function() {
         alert('An error occurred! Please try again later.')
     });
